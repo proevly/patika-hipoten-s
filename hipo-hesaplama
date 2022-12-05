@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("1.Kenarın Uzunlugunu Giriniz : ");
+        int edge1 = input.nextInt();
+        System.out.print("2.Kenarin Uzunlugunu Giriniz : ");
+        int edge2 = input.nextInt();
+        double edge3 = Math.sqrt( (edge1*edge1) + (edge2*edge2));
+
+        System.out.println("Hipotenüsün Uzunlugu : " + edge3);
+
+
+
+
+
+
+    }
+}
